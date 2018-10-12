@@ -1,0 +1,28 @@
+<!DOCTYPEhtml>
+<html>
+  <head>
+  </head>
+  <body>
+  <script>
+  var firstNumber = prompt("Please input the first number: ")
+  var secondNumber = prompt("Please input the second number: ")
+  var operation = prompt("What kind of operation you want? mult, div or mod? ")
+  if (operation === "mult"){
+    var result = ( firstNumber * secondNumber )
+    alert("The answer is "+ result)
+    console.log("The answer is "+ result)
+  } else if (operation === "div"){
+    var result = ( firstNumber / secondNumber)
+    alert("The answer is "+ result)
+    console.log("The answer is "+ result)
+  } else if (operation === "mod"){
+    var result = (firstNumber % secondNumber)
+    alert("The answer is "+ result)
+    console.log("The answer is "+ result)
+  } else {
+    alert("***invalid operation***")
+    console.log("***invalid operation***")
+  }
+  </script>
+  </body>
+</html>
